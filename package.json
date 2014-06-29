@@ -1,0 +1,14 @@
+{
+  "name": "polymer-test",
+  "description": "testing polymer integrated with Rails",
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.10.x"
+  }
+  "dependencies": {
+      "bower": "0.6.x"
+  },
+  "scripts": {
+      "postinstall": "./node_modules/bower/bin/bower install"
+  }
+}
