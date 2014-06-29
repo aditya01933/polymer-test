@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/ahuth/emcee.git
+  revision: 67b66891debae65b56aa96297ecb4219910d4e9f
+  specs:
+    emcee (1.0.0)
+      nokogiri (~> 1.0)
+      rails (~> 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -36,9 +44,6 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.0)
-    emcee (1.0.0)
-      nokogiri (~> 1.0)
-      rails (~> 4.0)
     erubis (2.7.0)
     execjs (2.2.1)
     hike (1.2.3)
@@ -120,7 +125,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
-  emcee
+  emcee!
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.1.2)
