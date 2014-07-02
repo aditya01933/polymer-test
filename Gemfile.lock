@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/ahuth/emcee.git
+  revision: fa2749854a990cb816a00d6d253bd5e9a511f33b
+  branch: fix-compressor-removing-urls
+  specs:
+    emcee (1.0.2)
+      nokogiri (~> 1.0)
+      rails (~> 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -37,9 +46,6 @@ GEM
       execjs
     coffee-script-source (1.7.0)
     daemons (1.1.9)
-    emcee (1.0.2)
-      nokogiri (~> 1.0)
-      rails (~> 4.0)
     erubis (2.7.0)
     eventmachine (1.0.3)
     execjs (2.2.1)
@@ -121,7 +127,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
-  emcee
+  emcee!
   jquery-rails
   rails (= 4.1.2)
   rails_12factor

@@ -14,7 +14,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
-gem 'emcee'#, github: "ahuth/emcee"
+gem 'emcee', github: "ahuth/emcee", branch: "fix-compressor-removing-urls"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
